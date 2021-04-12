@@ -1,0 +1,39 @@
+{
+  "name": "prabhi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prabhi",
+  "author": "itsprabhi",
+  "keywords": [
+    "gatsby"
+  ],
+  "homepage": "https://itsprabhi.github.io/",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build && gh-pages -d public",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^14.1.2",
+    "@contentful/rich-text-react-renderer": "^14.1.2",
+    "contentful": "^8.2.0",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
+    "framer-motion": "^4.0.3",
+    "gatsby": "^3.0.1",
+    "gatsby-plugin-manifest": "^3.2.0",
+    "gatsby-plugin-react-helmet": "^4.2.0",
+    "gatsby-source-contentful": "^5.0.3",
+    "gatsby-source-filesystem": "^3.0.0",
+    "gatsby-transformer-remark": "^3.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-intersection-observer": "^8.31.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
