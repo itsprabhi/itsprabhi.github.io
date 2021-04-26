@@ -8,7 +8,7 @@ import { graphql, Link, useStaticQuery } from 'gatsby'
 import resume from '../resume/prabhsharan_resume.pdf'
 
 import {useInView} from 'react-intersection-observer'
-import {motion, useAnimation} from 'framer-motion'
+import {motion, useAnimation } from 'framer-motion'
 
 
 
