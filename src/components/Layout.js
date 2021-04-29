@@ -3,7 +3,6 @@ import Footer from './Footer'
 import Header from './Header'
 
 import '../styles/style.css'
-import { AnimatePresence } from 'framer-motion'
 
 const Layout = ({ location, children }) => {
 
@@ -24,9 +23,9 @@ const Layout = ({ location, children }) => {
     return (
         <div>
             <Header location = {location}/>
-                <AnimatePresence>
+                
                 {children}
-                </AnimatePresence>
+              
             <Footer />
         </div>
     )
